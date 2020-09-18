@@ -25,5 +25,6 @@ saveHighScore = (e) => {
   highScores.splice(5);
 
   localStorage.setItem('highScores', JSON.stringify(highScores));
+  // came back to HomePage
   window.location.assign('/');
 };
